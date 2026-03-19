@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f1f2f4;
+	color: #2f2f2f;
+	min-height: 100vh;
+	padding: 28px;
+}
+
+.container {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 14px;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.form-group {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	margin-bottom: 10px;
+}
+
+.form-group input {
+	width: 220px;
+	height: 38px;
+	border: 1px solid #d1d1d1;
+	border-radius: 4px;
+	padding: 0 10px;
+	font-size: 14px;
+	outline: none;
+}
+
+.form-group input:focus {
+	border-color: #5a9c57;
+}
+
+.btn-cadastrar {
+	border: none;
+	border-radius: 4px;
+	background-color: #4caf50;
+	color: #ffffff;
+	padding: 0 18px;
+	height: 38px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.actions-group {
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	margin-bottom: 18px;
+}
+
+.btn-action {
+	border: none;
+	border-radius: 4px;
+	background-color: #6c757d;
+	color: #ffffff;
+	padding: 0 14px;
+	height: 34px;
+	font-size: 13px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#btn-clear-all {
+	background-color: #e74c3c;
+}
+
+#table-container h2 {
+	text-align: center;
+	margin-bottom: 12px;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #ffffff;
+}
+
+thead th {
+	background-color: #4caf50;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 14px 10px;
+	border: 1px solid #47a24b;
+	text-align: center;
+}
+
+tbody td {
+	font-size: 20px;
+	padding: 12px 10px;
+	border: 1px solid #d8d8d8;
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+#vendas-body td[colspan='7'] {
+	font-size: 20px;
+	font-weight: 700;
+	padding: 20px;
+	background-color: #f4f4f4;
+}
+
+.btn-remover {
+	border: none;
+	border-radius: 4px;
+	background-color: #e74c3c;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 8px 14px;
+	cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+	h1,
+	#table-container h2 {
+		font-size: 28px;
+	}
+
+	thead th {
+		font-size: 15px;
+	}
+
+	tbody td {
+		font-size: 15px;
+	}
+
+	.btn-remover {
+		font-size: 13px;
+		padding: 6px 10px;
+	}
+
+	#vendas-body td[colspan='7'] {
+		font-size: 14px;
+	}
+}
