@@ -43,5 +43,3 @@ valorFinal = valor - (valor * 0.1)
 - Impede cadastro com valor inválido ou menor/igual a zero
 
 ## 👨‍💻 Daniel Luiz
-
-Projeto desenvolvido para fins de estudo e prática de lógica com JavaScript.
